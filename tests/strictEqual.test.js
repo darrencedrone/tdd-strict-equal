@@ -28,14 +28,5 @@ describe('comparison', () => {
       const returnFalseString = strictEqual(a, b)
       expect(returnFalseString).to.equal(false)
     })
-
-    // 
-    // const returnTrueString = strictEqual('a', 'a')
-    // const returnFalseString = strictEqual('a', 'b')
-
-
-    // 
-    // expect(returnTrueString).to.equal(true)
-    // expect(returnFalseString).to.equal(false)
   })
 })
